@@ -150,7 +150,7 @@ function myfunc(div) {
 }
 
 $('#pulsante').click(function() {   
-  const rollSound = new Audio("./audio/roll.mp3");      //get the index of button
+  const rollSound = new Audio("./audio/roll.ogg");      //get the index of button
   rollSound.play();          //play corresponding audio
 });
 
