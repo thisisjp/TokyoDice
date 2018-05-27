@@ -135,7 +135,7 @@ window.addEventListener( 'DOMContentLoaded', function () {
     }
 
     buttonRoolDice.addEventListener( 'click', rollDice, false );
-
+    
 }, false);
 
 
@@ -148,3 +148,9 @@ function myfunc(div) {
     div.className = "dice free";
   }
 }
+
+$('#pulsante').click(function() {   
+  const rollSound = new Audio("./audio/roll.mp3");      //get the index of button
+  rollSound.play();          //play corresponding audio
+});
+

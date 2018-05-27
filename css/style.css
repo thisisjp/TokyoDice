@@ -15,14 +15,14 @@ body {
 
 #pulsante {
     position: absolute;
-    bottom:0;
+    bottom:100px;
     background-color: #E62100;
     padding: 0.5em 2em;
     font-weight: 700;
     font-size: 2em;
     border: none;
     text-align: center;
-    width: 100%;
+    width: 75%;
     vertical-align: middle;
     color: white;
 }
